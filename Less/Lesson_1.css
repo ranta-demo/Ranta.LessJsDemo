@@ -1,0 +1,16 @@
+﻿p {
+  color: #ff0000;
+}
+div {
+  margin: 2px;
+}
+div:hover {
+  color: #00ff00;
+}
+div a {
+  background: #ff0000;
+}
+div a:hover {
+  background: #0000ff;
+}
+/*# sourceMappingURL=Lesson_1.css.map */

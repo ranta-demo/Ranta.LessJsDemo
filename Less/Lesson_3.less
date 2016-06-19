@@ -1,0 +1,13 @@
+﻿.animal {
+    color: #f00;
+}
+
+.bear {
+    &:extend(.animal);
+    border: 1px solid #ccc;
+}
+
+.cat {
+    &:extend(.animal);
+    border: 2px solid #ccc;
+}

@@ -1,0 +1,26 @@
+﻿@color_red: #f00;
+@color_green: #0f0;
+@color_blue: #00f;
+
+@number: 2px;
+
+p {
+    color: @color_red;
+}
+
+div {
+    margin: @number;
+
+    &:hover {
+        color: @color_green;
+    }
+
+    a {
+        background: @color_red;
+
+        &:hover {
+            background: @color_blue;
+        }
+    }
+}
+

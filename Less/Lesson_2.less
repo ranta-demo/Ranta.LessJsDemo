@@ -1,0 +1,13 @@
+﻿.boder-radius(@radius: 5px) {
+    border-radius: @radius;
+}
+
+div {
+    &.d1 {
+        .boder-radius;
+    }
+
+    &.d2 {
+        .boder-radius(3px);
+    }
+}

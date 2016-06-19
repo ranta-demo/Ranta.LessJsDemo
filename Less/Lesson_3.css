@@ -1,0 +1,12 @@
+﻿.animal,
+.bear,
+.cat {
+  color: #f00;
+}
+.bear {
+  border: 1px solid #ccc;
+}
+.cat {
+  border: 2px solid #ccc;
+}
+/*# sourceMappingURL=Lesson_3.css.map */
